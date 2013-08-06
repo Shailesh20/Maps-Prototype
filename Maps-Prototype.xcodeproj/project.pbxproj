@@ -23,6 +23,9 @@
 		932BDCEA179AC5AC00D48057 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932BDCC5179AC5AC00D48057 /* Foundation.framework */; };
 		932BDCF2179AC5AC00D48057 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 932BDCF0179AC5AC00D48057 /* InfoPlist.strings */; };
 		932BDCF5179AC5AD00D48057 /* Maps_PrototypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 932BDCF4179AC5AD00D48057 /* Maps_PrototypeTests.m */; };
+		933A46BA179D281C001729C1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933A46B9179D281C001729C1 /* MapKit.framework */; };
+		933A46BC179D2825001729C1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933A46BB179D2825001729C1 /* CoreLocation.framework */; };
+		933A46BE179D283B001729C1 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933A46BD179D283B001729C1 /* AddressBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		932BDCF1179AC5AC00D48057 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		932BDCF3179AC5AD00D48057 /* Maps_PrototypeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Maps_PrototypeTests.h; sourceTree = "<group>"; };
 		932BDCF4179AC5AD00D48057 /* Maps_PrototypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Maps_PrototypeTests.m; sourceTree = "<group>"; };
+		933A46B9179D281C001729C1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		933A46BB179D2825001729C1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		933A46BD179D283B001729C1 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				933A46BE179D283B001729C1 /* AddressBook.framework in Frameworks */,
+				933A46BC179D2825001729C1 /* CoreLocation.framework in Frameworks */,
+				933A46BA179D281C001729C1 /* MapKit.framework in Frameworks */,
 				932BDCC4179AC5AC00D48057 /* UIKit.framework in Frameworks */,
 				932BDCC6179AC5AC00D48057 /* Foundation.framework in Frameworks */,
 				932BDCC8179AC5AC00D48057 /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +115,9 @@
 		932BDCC2179AC5AC00D48057 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				933A46BD179D283B001729C1 /* AddressBook.framework */,
+				933A46BB179D2825001729C1 /* CoreLocation.framework */,
+				933A46B9179D281C001729C1 /* MapKit.framework */,
 				932BDCC3179AC5AC00D48057 /* UIKit.framework */,
 				932BDCC5179AC5AC00D48057 /* Foundation.framework */,
 				932BDCC7179AC5AC00D48057 /* CoreGraphics.framework */,
@@ -453,6 +465,7 @@
 				932BDCFA179AC5AD00D48057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		932BDCFB179AC5AD00D48057 /* Build configuration list for PBXNativeTarget "Maps-PrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +474,7 @@
 				932BDCFD179AC5AD00D48057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
